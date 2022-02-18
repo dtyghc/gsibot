@@ -25,7 +25,7 @@ jobs:
               sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev rsync flex bison ccache openjdk-8-jdk expect neofetch tmux tmate aria2
               git config --global user.name "spiderdev123"
               git config --global user.email "spidermanm7@hotmail.com"
-              git clone https://spiderdev123:${{ secrets.token }}@github.com/spiderdev123/gsitools -b master ErfanGSIs
+              git clone --recurse-submodules https://github.com/Anantgoel0123456/ErfanGSIs.git
               curl -sL https://git.io/file-transfer | sh
      
        - name: Setup Erfan-Tools
