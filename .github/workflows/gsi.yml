@@ -55,9 +55,9 @@ jobs:
              touch sf-creds.prop
              echo "#Config file" >> "sf-creds.prop"
              echo "#Sat Dec 25 12:03:12 GAZA/JERUSALEM PALESTINE 2021" >> "sf-creds.prop"
-             echo "bot-sf-user=anant-gsi" >> "sf-creds.prop"
+             echo "bot-sf-user=anantgoel" >> "sf-creds.prop"
              echo "bot-send-announcement=true" >> "sf-creds.prop"
-             echo "bot-sf-proj=anantgoel" >> "sf-creds.prop"
+             echo "bot-sf-proj=anant-gsi" >> "sf-creds.prop"
              echo "bot-announcement-id=-1001530839547" >> "sf-creds.prop"
              echo "bot-sf-pass=${{ secrets.SFPASS }}" >> "sf-creds.prop"
              echo "bot-sf-host=frs.sourceforge.net" >> "sf-creds.prop"
