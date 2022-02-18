@@ -7,7 +7,7 @@ env:
   TZ: Asia/Manila
 jobs:
   build:
-    runs-on: ubuntu-20.4
+    runs-on: ubuntu-latest
     timeout-minutes: 505600
 
     steps:
