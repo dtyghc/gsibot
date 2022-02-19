@@ -38,7 +38,7 @@ jobs:
          continue-on-error: true
          timeout-minutes: 3
          run: |
-              java -jar GSIBOT.jar
+              java -jar Bobo.jar
          
        - name: Setup values
          continue-on-error: true
@@ -66,4 +66,4 @@ jobs:
          timeout-minutes: 310
          run: |
               sudo chmod -R 0777 *
-              sudo java -jar GSIBOT.jar
+              sudo java -jar Bobo.jar
